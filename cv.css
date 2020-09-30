@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Times New Roman', Times, serif3;
+}
+
+.container{
+
+max-width: 1000px;
+background-color: pink;
+margin: 0 auto;
+padding: 20px;
+}
+
+.img{
+
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.hmybio{
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+
+.hmylink {
+float: right;
+ padding: 30px; 
+
+}
+
+.hmylink a{
+    text-decoration: none;
+    font-size: 18px;
+    color: teal;
+    font-weight: bold;
+    
+
+}
+
+.hmylink a:hover{
+    text-decoration: underline;
+    color: tomato;
+    
+
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: 3px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+
+/* 
+personal section strt */
+
+#peronal{
+
+}
+.personal-con{
+
+}
+.leftdiv{
+    width: 30%;
+    float: left;
+
+}
+.rightdiv{
+    width: 70%;
+    float: left;
+}
+
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.fc{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.fc a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.fc p{
+    color: white;
+}
